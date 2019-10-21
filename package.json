@@ -1,0 +1,14 @@
+{
+  "name": "tours_and_travels",
+  "version": "1.0.0",
+  "description": "A tours and travel Company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
