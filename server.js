@@ -3,6 +3,12 @@ const app = require('./app')
 // dotenv
 require("dotenv/config");
 
+// logger init
+const morgan = require("morgan");
+
+// logging in console
+app.use(morgan("dev"));
+
 mongoose.connect(
   process.env.DB_CONNECTION,
   { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false },
